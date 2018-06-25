@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-nodejs-ta-p2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuananh281098/tutorial-NodeJS-TA-P2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuananh281098/tutorial-NodeJS-TA-P2/issues"
+  },
+  "homepage": "https://github.com/tuananh281098/tutorial-NodeJS-TA-P2#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
