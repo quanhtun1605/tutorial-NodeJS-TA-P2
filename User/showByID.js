@@ -2,9 +2,9 @@ var con = require('../mySQL.js');
 
 function sendUserByID(id, userName, Email){
   return{
-    userID     : id,
-    useName  : userName,
-    userEmail  : Email
+    userID      : id,
+    useName     : userName,
+    userEmail   : Email
   };
 }
 exports.showUserByID = function showUserByID(id, callback){

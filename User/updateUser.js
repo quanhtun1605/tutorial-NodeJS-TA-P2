@@ -3,7 +3,7 @@ var con = require('../mySQL.js');
 exports.updateUser = function updateUser(id, userName, email, callback){
   var userID = parseInt(id);
   var sql = "UPDATE `node_TUT`.`user`" +
-            "SET `Username` = '" + userName + "' , `UseEmail` = '" + email + "' " +
+            "SET `Username` = '" + userName + "' , `UserEmail` = '" + email + "' " +
             "WHERE `UserID` = '" + userID + "'";
   con.query(sql, function(err, rows) {
        var result = {};
